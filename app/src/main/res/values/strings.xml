@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">othello</string>
+    <string name="main_title">OTHELLO</string>
+    <string name="title_activity_local_game_activty">LocalGameActivty</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
