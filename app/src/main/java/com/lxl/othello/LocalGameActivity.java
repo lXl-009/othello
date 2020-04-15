@@ -108,6 +108,5 @@ public class LocalGameActivity extends BaseActivity {
         currentPlayerAnimator.setDuration(500);
         currentPlayerAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         currentPlayerAnimator.start();
-
     }
 }
