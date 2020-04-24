@@ -1,14 +1,15 @@
-package com.lxl.othello;
+package com.lxl.othello.plus;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import androidx.core.view.GestureDetectorCompat;
 import android.util.AttributeSet;
 import android.view.GestureDetector.OnGestureListener;
 import android.view.MotionEvent;
 import android.view.View;
+
+import androidx.core.view.GestureDetectorCompat;
 
 /**
  * User: lxl
@@ -19,8 +20,8 @@ public class ChessBoard extends View {
     private static final String TAG = "ChessBoard";
     private static final int COLOR_BACKGROUND = 0xff00ddff;
     private static final int COLOR_LINE = 0xffffffff;
-    public static final int COLUMN_NUM = 8;
-    public static final int ROW_NUM = 8;
+    public static final int COLUMN_NUM = 10;
+    public static final int ROW_NUM = 10;
 
     private Paint paint;
     private Piece[][] pieces;
@@ -125,7 +126,6 @@ public class ChessBoard extends View {
         }
         return count;
     }
-
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {

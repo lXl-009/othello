@@ -1,4 +1,4 @@
-package com.lxl.othello;
+package com.lxl.othello.plus;
 
 /**
  * User: lxl

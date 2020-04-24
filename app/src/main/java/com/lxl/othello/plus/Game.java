@@ -1,7 +1,7 @@
-package com.lxl.othello;
+package com.lxl.othello.plus;
 
-import com.lxl.othello.ChessBoard.OnCellClickListener;
-import com.lxl.othello.ChessBoard.Piece;
+import com.lxl.othello.plus.ChessBoard.OnCellClickListener;
+import com.lxl.othello.plus.ChessBoard.Piece;
 
 /**
  * User: lxl

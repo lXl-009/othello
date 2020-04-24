@@ -1,4 +1,4 @@
-package com.lxl.othello;
+package com.lxl.othello.plus;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -12,11 +12,12 @@ import android.view.View.OnClickListener;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.lxl.othello.ChessBoard.Piece;
-import com.lxl.othello.Game.ChessPlayer;
-import com.lxl.othello.Game.GameListener;
-import com.lxl.othello.Game.WhitePlayer;
 
+import com.lxl.othello.plus.ChessBoard.Piece;
+import com.lxl.othello.plus.Game.ChessPlayer;
+import com.lxl.othello.plus.Game.GameListener;
+import com.lxl.othello.plus.Game.WhitePlayer;
+import com.lxl.othello.plus.R;
 
 public class LocalGameActivity extends BaseActivity {
 

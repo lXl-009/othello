@@ -1,4 +1,4 @@
-package com.lxl.othello;
+package com.lxl.othello.plus;
 
 import android.app.Activity;
 import android.os.Bundle;
